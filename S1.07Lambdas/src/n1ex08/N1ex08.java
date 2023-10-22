@@ -11,8 +11,8 @@ public class N1ex08 {
 		System.out.println("Enter a word to turn it upside down");
 		input = sc.next();
 		
-        Reverse lambda = str -> new StringBuilder(str).reverse().toString();
-        String reversed = lambda.reverse(input);
+        Reverse reverseFunction = str -> new StringBuilder(str).reverse().toString();
+        String reversed = reverseFunction.reverse(input);
 
         System.out.println("Reversed word: " + reversed);
     }

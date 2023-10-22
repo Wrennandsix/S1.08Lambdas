@@ -13,7 +13,7 @@ public class N1ex01 {
 		people.add("Carlos");
 		people.add("Pepe");	
 		
-		people.forEach(	(n) -> {if(n.toLowerCase().contains("o")) results.add(n);});
+		people.forEach(	(name) -> {if(name.toLowerCase().contains("o")) results.add(name);});
 		
 		System.out.println(results);
 	}

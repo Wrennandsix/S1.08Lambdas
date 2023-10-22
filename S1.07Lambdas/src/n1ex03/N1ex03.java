@@ -9,6 +9,6 @@ public class N1ex03 {
 		ArrayList<String> months = new ArrayList<String>(Arrays.asList("January", "February", "March", "April", "May",
 				"June", "July", "August", "September", "October", "November", "December"));
 
-		months.forEach((m) ->{System.out.println(m);});
+		months.forEach((month) ->{System.out.println(month);});
 	}
 }

@@ -20,13 +20,13 @@ public class N1ex06 {
 		list.add("Arboleda");
 		list.add("Mundo");
 
-		Collections.sort(list, Comparator.comparing(o -> {
-			if (o instanceof String) {
-				return ((String) o).length();
+		Collections.sort(list, Comparator.comparing(name -> {
+			if (name instanceof String) {
+				return ((String) name).length();
 			}
 			return 0;
 		}));
-		list.forEach((n) -> {System.out.println(n);});
+		list.forEach((name) -> {System.out.println(name);});
 
 	}
 }
